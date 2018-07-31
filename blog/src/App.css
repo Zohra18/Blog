@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* NAVBAR */
+
+.navbar{
+  width: 100%;
+}
+
+/* CENTER ARTICLES ELEMENTS*/
+
+.card-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card{
+  margin: 2% 0 2% 0;
+}
+
+/* WRAPPER SIGNUP */
+
+
+.wrapperAuth{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#signuptitle{
+  margin: 3% 0 3% 0;
+  font-family: Helvetica;
+}
